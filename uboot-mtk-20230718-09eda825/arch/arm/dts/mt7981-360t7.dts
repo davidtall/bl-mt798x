@@ -41,10 +41,10 @@
 		};
 
 		layout@2 {
-			label = "immortalwrt-240m";
+			label = "immortalwrt-235m";
 			// mtd layout for immortalwrt/openwrt 240M ubi firmware
 			mtdids = "nmbm0=nmbm0";
-			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(factory),2048k(fip),240M(ubi)";
+			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(factory),2048k(fip),235(ubi),1M(stock-config),512k(stock-factory),4M(stock-log)";
 		};
 	};
 
